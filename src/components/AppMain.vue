@@ -29,9 +29,10 @@ import AppTestimonial from './AppTestimonial.vue';
 
 export default {
     name: "AppMain",
-    
-    components: { AppHero,
-         GameCollection,
+
+    components: { 
+        AppHero,
+        GameCollection,
         AppTeam,
         GameMatches,
         GameSquads, 
