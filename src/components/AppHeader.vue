@@ -93,12 +93,5 @@ export default {
     header{
         background-color: $mainColor;
         color: white;
-
-        button.mainScheme{
-            background-color: white;
-            color: $accentColor;
-            border-bottom: $accentColor 2px solid;
-            padding: .5rem;
-        }
     }
 </style>
