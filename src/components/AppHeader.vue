@@ -8,7 +8,7 @@
                         <i class="fa-solid fa-phone"></i> +800-123-4567 6587
                     </p>
 
-                    <p class="">
+                    <p>
                         <i class="fa-solid fa-location-dot"></i>  Beverley, New York 224 USA 
                     </p>
                 </div>
