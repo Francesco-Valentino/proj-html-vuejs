@@ -1,7 +1,27 @@
 <template>
-    <div class="d-flex">
-        
+
+    <header>
+        <div>
+            <div class="d-flex">
+                <p>
+                    <i class="fa-solid fa-phone"></i> +800-123-4567 6587
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>  Beverley, New York 224 USA 
+                </p>
+            </div>
+
+            <div>
+
+            </div>
     </div>
+    </header>
+    
+
+    <nav>
+
+    </nav>
 </template>
 
 <script>
