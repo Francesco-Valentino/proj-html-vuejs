@@ -42,11 +42,11 @@
                     </ul>
 
                     <div>
-                        <button class="text-uppercase logIn">
+                        <button class="text-uppercase mainScheme">
                             <i class="fa-solid fa-user"></i> Log in
                         </button>
 
-                        <button class="text-uppercase signUp">
+                        <button class="text-uppercase secondaryScheme">
                             <i class="fa-solid fa-users"></i> Sign Up
                         </button>
                     </div>
@@ -94,7 +94,7 @@ export default {
         background-color: $mainColor;
         color: white;
 
-        button.logIn{
+        button.mainScheme{
             background-color: white;
             color: $accentColor;
             border-bottom: $accentColor 2px solid;
