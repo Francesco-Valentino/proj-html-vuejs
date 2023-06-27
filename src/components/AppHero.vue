@@ -49,9 +49,9 @@ export default{
 </script>
 
 <style lang="scss" scoped>
-    @use "../styles/partials/variables.scss" as *;
+@use "../styles/partials/variables.scss" as *;
     div.heroWrap{
-        height: 1200px;
+        /* height: 1200px; */
 
         img{
             width: 100%;
