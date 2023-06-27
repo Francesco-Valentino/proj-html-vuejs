@@ -1,7 +1,7 @@
 <template>
 
     <header>
-        <div class="container pt-3">
+        <div class="container wrapper pt-3">
             <div class="row d-flex justify-content-between">
                 <div class="d-flex col-6 justify-content-between">
                     <p>
@@ -28,7 +28,7 @@
             
         </div>
 
-        <div class="container">
+        <div class="wrapper">
             <div class="row d-flex">
                 <div class="col-3">
                     <img :src="getImagePath(logoName)" alt="Gamer logo">
