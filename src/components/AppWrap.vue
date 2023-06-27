@@ -1,6 +1,4 @@
 <template>
-
-import Appheader from './Appheader.vue';
     <div>
         <AppHeader/>
         <AppMain/>
@@ -15,7 +13,7 @@ import AppFooter from './AppFooter.vue';
 
 export default {
     name: "AppWrap",
-    
+
     components: { 
         AppHeader,
         AppMain,
