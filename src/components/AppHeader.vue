@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="d-flex">
         
     </div>
 </template>
@@ -23,5 +23,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    
+    @use "../styles/partials/variables.scss" as *;
 </style>
