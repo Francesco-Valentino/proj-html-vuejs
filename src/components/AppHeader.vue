@@ -6,7 +6,19 @@
 
 <script>
 export default {
-    name: "AppHeader"
+    name: "AppHeader",
+
+   data(){
+        return{
+            headerNavActions: [
+                "Home",
+                "Features +",
+                "Achievement",
+                "Blog +",
+                "Contact",
+            ],
+        }
+   },
 }
 </script>
 
