@@ -17,6 +17,14 @@ button.mainScheme{
     padding: .5rem;
 }
 
+button.offScheme{
+    background-color: $accentColor;
+    color: white;
+    border-bottom: white 2px solid;
+    border-right: white 2px solid;
+    padding: .5rem;
+}
+
 .txt-white{
     color: white;
 }
