@@ -1,5 +1,5 @@
 <template>
-    <section class="matchesWrap">
+    <section class="matchesWrap pt-5">
         <p class="text-uppercase text-center">
             Anywhere, anytime
         </p>
