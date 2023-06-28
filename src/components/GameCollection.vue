@@ -1,6 +1,6 @@
 <template>
     <section class="sectionWrap">
-        <div class="wrapper">
+        <div class="wrapper pb-5">
             <p class="littleText text-center text-uppercase">
                 Today's
             </p>
