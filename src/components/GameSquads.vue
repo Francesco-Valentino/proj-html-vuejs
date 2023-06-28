@@ -10,20 +10,68 @@
 
         <div class="wrapper py-5">
             <div class="row">
-                <div class="col-3 vikings d-flex flex-column align-items-center">
+                <div class="col-3 vikings d-flex flex-column align-items-center justify-content-around">
                     <img :src="getImagePath(vikingsName)" alt="team logo">
+
+                    <h3 class="text-uppercase txt-white">
+                        Gaming team
+                    </h3>
+
+                    <div class="d-flex">
+                        <img class="logo" :src="getImagePath(vimeoName)" alt="vimeo logo">
+                        
+                        <img class="logo" :src="getImagePath(youtubeName)" alt="youtube logo">
+                        
+                        <img class="logo" :src="getImagePath(twitchName)" alt="twitch logo">
+                    </div>
                 </div>
 
-                <div class="col-3 dragons d-flex flex-column align-items-center">
+                <div class="col-3 dragons d-flex flex-column align-items-center justify-content-around">
                     <img :src="getImagePath(dragonsName)" alt="team logo">
+
+                    <h3 class="text-uppercase txt-white">
+                        dragons team
+                    </h3>
+
+                    <div class="d-flex">
+                        <img class="logo" :src="getImagePath(vimeoName)" alt="vimeo logo">
+                        
+                        <img class="logo" :src="getImagePath(youtubeName)" alt="youtube logo">
+                        
+                        <img class="logo" :src="getImagePath(twitchName)" alt="twitch logo">
+                    </div>
                 </div>
 
-                <div class="col-3 frogs d-flex flex-column align-items-center">
+                <div class="col-3 frogs d-flex flex-column align-items-center justify-content-around">
                     <img :src="getImagePath(vikingsName)" alt="team logo">
+
+                    <h3 class="text-uppercase txt-white">
+                        Frogs team
+                    </h3>
+
+                    <div class="d-flex">
+                        <img class="logo" :src="getImagePath(vimeoName)" alt="vimeo logo">
+                        
+                        <img class="logo" :src="getImagePath(youtubeName)" alt="youtube logo">
+                        
+                        <img class="logo" :src="getImagePath(twitchName)" alt="twitch logo">
+                    </div>
                 </div>
 
-                <div class="col-3 tigers d-flex flex-column align-items-center">
+                <div class="col-3 tigers d-flex flex-column align-items-center justify-content-around">
                     <img :src="getImagePath(dragonsName)" alt="team logo">
+
+                    <h3 class="text-uppercase txt-white">
+                        Tigers team
+                    </h3>
+
+                    <div class="d-flex">
+                        <img class="logo" :src="getImagePath(vimeoName)" alt="vimeo logo">
+                        
+                        <img class="logo" :src="getImagePath(youtubeName)" alt="youtube logo">
+                        
+                        <img class="logo" :src="getImagePath(twitchName)" alt="twitch logo">
+                    </div>
                 </div>
             </div>
         </div>
@@ -59,8 +107,8 @@ export default {
     
     section.squadsSectionWrapper{
         background-color: $mainColor;
-        height: 1000px;
-    }
+/*         height: 1000px;
+ */    }
 
     p.smallText{
         color: $accentColor;
@@ -74,6 +122,11 @@ export default {
         img{
             width: 220px;
         }
+
+        
+        img.logo{
+            width: 55px;
+        }
     }
 
     div.vikings{
@@ -86,11 +139,9 @@ export default {
 
     div.frogs{
         background-image: url("../assets/img/1.jpg");
-        filter: sepia(100%);
     }
 
     div.tigers{
         background-image: url("../assets/img/5.jpg");
-        filter: brightness(.7);
     }
 </style>
