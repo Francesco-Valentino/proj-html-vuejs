@@ -34,7 +34,7 @@
                     <img :src="getImagePath(logoName)" alt="Gamer logo">
                 </div>
                 
-                <nav class="d-flex justify-content-end text-uppercase col-9">
+                <nav class="d-flex justify-content-end align-items-center text-uppercase col-9">
                     <ul class="d-flex justify-content-around">
                         <li v-for="action in headerNavActions">
                             {{ action }}
@@ -46,7 +46,7 @@
                             <i class="fa-solid fa-user"></i> Log in
                         </button>
 
-                        <button class="text-uppercase secondaryScheme">
+                        <button class="text-uppercase offScheme">
                             <i class="fa-solid fa-users"></i> Sign Up
                         </button>
                     </div>
@@ -93,5 +93,10 @@ export default {
     header{
         background-color: $mainColor;
         color: white;
+    }
+
+    li{
+        margin-right: 1rem;
+        margin-top: .5rem;
     }
 </style>
