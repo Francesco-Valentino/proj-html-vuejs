@@ -269,7 +269,7 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center my-5 pb-5">
+            <div class="d-flex justify-content-center py-5">
                 <button class="mainScheme">
                     Browse all matches <i class="fa-solid fa-circle-chevron-right"></i>
                 </button>
